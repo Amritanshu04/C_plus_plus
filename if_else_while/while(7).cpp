@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-main()
+int main()
 {
     int n ;
     cin>> n;
