@@ -5,29 +5,27 @@ ABC
 ABC
 
 */
+
+
 #include <iostream>
 using namespace std;
 
-int main ()
-{
-    int n ;
+int main() {
+    int n;
     cin >> n;
 
     int row = 1;
-    while(row <= n)
+    while (row <= n) 
     {
         int col = 1;
-        while (col <= n)
-        {
-            
-            char ch = ('A' + col - 1);
-            cout << ch ;
-            col = col + 1 ;
+        while (col <= n) {
+            char ch = 'A'+ col -1 ;  // Start with 'A'
+            cout << ch;
+            col = col + 1;
         }
         cout << endl;
-        row = row + 1 ;
+        row = row + 1;
     }
-        
 
+    return 0; // Add this line to indicate successful program execution.
 }
-    
